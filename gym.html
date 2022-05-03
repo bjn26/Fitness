@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhumika Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gym.css">
+<style>
+    body {
+        color: white;
+        padding: 0px;
+        margin: 0px;
+        background: url('bggym.webp');
+        background-size: 100%;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+    .left {
+        position: absolute;
+        left: 44px;
+        top: 20px;
+        /* border: 2px solid purple; */
+        display: inline-block;
+
+    }
+
+    .left img {
+        margin: auto;
+        display: block;
+        width: 85px;
+        height: 40px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 26px;
+    }
+
+    .mid {
+        margin: 17px auto;
+        width: 45%;
+        /* border: 2px solid rgb(85, 35, 201); */
+        display: block;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 29px;
+        /* border: 2px solid rgb(25, 189, 66); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: thistle;
+        text-decoration: underline;
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        padding: 4px 20px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        margin: 0px 10px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(218, 169, 169);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 50px 50px;
+        padding: 14px 14px;
+        width: 40%;
+        border-radius: 10px;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        font-size: 15px;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        border-radius: 8px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: 20px auto;
+        width: 400px;
+    }
+</style>
+
+<body>
+    <!-- <img src="jjgj.png" alt="" height="900px" width="1500px"> -->
+
+    <header class="header">
+        <div class="left">
+            <img src="gym_logo.png" alt="">
+            <div>Bhumi Fitness</div>
+            </ul>
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us </button>
+            <button class="btn">Email Us </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Join the best gym of Jaipur now
+            <form action="noaction.png">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Contact ">
+                </div>
+                <buttton class="btn">Submit</buttton>
+            </form>
+        </h1>
+    </div>
+</body>
+
+</html>
